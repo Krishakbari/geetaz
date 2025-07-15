@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+  font-size: 17px;
+  
+  line-height: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  background-color: rgb(218, 218, 216) !important;
+  box-shadow: 0 8px 6px -6px rgb(91, 91, 91) !important;
+}
+
+.nav-link {
+  font-weight: 600 !important;
+  margin-left: 15px;
+}
+
+/* .nav-link:hover{
+  
+  border-bottom: 1px solid black;
+} */
+.active {
+  font-weight: 900;
+  border-bottom: 1px solid black;
+
+}
+
+.z {
+  font-size: 1rem;
+  color: #8e7444;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #3e93a0;
+  letter-spacing: 3px;
+}
+
+
+/* footer */
+.footer {
+  color: white;
+  padding: 25px;
+  background: -webkit-linear-gradient(to right,
+      #434343,
+      #000000);
+  background: linear-gradient(to right, #a09c9c, #000000);
+}
+
+.footer A {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+
+
+/* * page not found */ */
+.pnf {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Solution 2: If Layout has padding/margin, account for it */
+.pnf {
+  display: flex;
+  min-height: calc(100vh - 200px); /* Adjust 200px based on your layout */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Solution 3: Use absolute positioning */
+.pnf {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Your existing styles */
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, #dfb8b8 50%, #5c807e 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.pnf-btn:hover {
+  background-position: left bottom;
+  color: #000000;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-md-5 {
+  font-size: 1.1rem;
+}
+
+
+/* register page nu biji file ma */
+
+/*  */
+.product-link{
+  text-decoration: none !important;
+  color: #000000 !important;
+
+}
+
